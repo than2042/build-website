@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+html body {
+  font-family: "Poppins", "Noto Sans Myanmar", monospace, "Lato", sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container {
+  display: flex;
+  gap: 4rem;
+  margin: 2rem 3rem;
+  text-transform: uppercase;
+  position: fixed;
+  color: #f0f8ff;
+  z-index: 1;
+}
+
+.logo {
+  font-size: 3rem;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 4rem;
+}
+.nav-items a {
+  color: #f0f8ff;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f0f8ff;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.galaxy {
+  background-image: url("./images/galaxy.jpg");
+}
+
+.landscape {
+  background-image: url("./images/landscape.jpg");
+}
+
+.eclipse {
+  background-image: url("./images/eclipse.jpg");
+}
+
+h2 {
+  margin-block-end: 0;
+  margin-block-start: 0;
+  font-weight: 100;
+  opacity: 0.5;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 540;
+}
+
+.description {
+  width: 30%;
+  position: absolute;
+  bottom: 25%;
+  left: 5%;
+}
+
+.btn {
+  width: 11rem;
+  height: 3rem;
+  border-radius: 0.6rem;
+  border-width: 0;
+  text-transform: uppercase;
+  font-size: 1rem;
+  background: #0b656f;
+  color: #f0f8ff;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  background: #000000;
+  color: #555;
+  font-size: 1.3rem;
+}
+
+.box {
+  animation: animName 7s linear infinite;
+  width: 17.7rem;
+  height: 17.7rem;
+  background: #040404;
+  border-radius: 50%;
+  border: 15px solid #e6edf3;
+  border-top-color: transparent;
+  position: absolute;
+  bottom: 5.7rem;
+  left: 41rem;
+}
+
+@keyframes animName {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

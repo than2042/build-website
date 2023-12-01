@@ -100,14 +100,12 @@ footer {
   font-size: 1.3rem;
 }
 
-.box {
+.eclipseAni {
   animation: animName 7s linear infinite;
   width: 17.7rem;
   height: 17.7rem;
-  background: #040404;
+  box-shadow: #e8dfc5 10px 70px 80px 6px;
   border-radius: 50%;
-  border: 15px solid #e6edf3;
-  border-top-color: transparent;
   position: absolute;
   bottom: 5.7rem;
   left: 41rem;

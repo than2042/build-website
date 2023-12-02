@@ -10,7 +10,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="app.js"></script>
+    <script src="./app.js" defer></script>
+    <script
+      data-search-pseudo-elements
+      src="https://kit.fontawesome.com/f737751420.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Build Website!!</title>
   </head>
   <body>
@@ -30,14 +35,15 @@
           <div class="description">
             <h2>Recent Launch</h2>
             <h1>Shipflight Video</h1>
-            <button class="btn read">Read More</button>
+            <i id="snow" class="fa-sharp fa-light fa-snowflake snow"></i>
+            <button id="galaxy" class="btn read">Read More</button>
           </div>
         </div>
         <div class="container landscape">
           <div class="description">
             <h2>Buy Tickets</h2>
             <h1>You can go to space!!</h1>
-            <button class="btn read">Read More</button>
+            <button id="landscape" class="btn read">Read More</button>
           </div>
         </div>
         <div class="container eclipse">

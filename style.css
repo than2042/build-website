@@ -88,6 +88,28 @@ h1 {
   font-size: 1rem;
   background: #0b656f;
   color: #f0f8ff;
+  border: none;
+  cursor: pointer;
+}
+
+.snow {
+  color: #f7fcf3;
+  font-size: 2rem;
+  padding: 1rem;
+  animation: falling 3s linear forwards infinite;
+  animation-delay: 1s;
+  margin: 10px;
+}
+
+.eclipseAni {
+  animation: animEli 5s linear infinite;
+  width: 17.7rem;
+  height: 17.7rem;
+  box-shadow: #d9cba5 10px 70px 80px 6px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5.7rem;
+  left: 41rem;
 }
 
 footer {
@@ -100,22 +122,20 @@ footer {
   font-size: 1.3rem;
 }
 
-.eclipseAni {
-  animation: animName 7s linear infinite;
-  width: 17.7rem;
-  height: 17.7rem;
-  box-shadow: #e8dfc5 10px 70px 80px 6px;
-  border-radius: 50%;
-  position: absolute;
-  bottom: 5.7rem;
-  left: 41rem;
-}
-
-@keyframes animName {
+@keyframes animEli {
   0% {
     transform: rotate(0deg);
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes falling {
+  from {
+    transform: translateY(-10vh);
+  }
+  to {
+    transform: translateY(100vh);
   }
 }

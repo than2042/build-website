@@ -113,6 +113,21 @@ h1 {
   left: 41rem;
 }
 
+.bgChange {
+  color: #f5b700;
+  box-shadow: #d6bec1 10px 10px 60px 10px;
+  border: 1px solid;
+  border-radius: 1rem;
+  width: 40rem;
+  height: 17rem;
+  padding: 20px;
+}
+
+.btnBg {
+  background: #e95c3a;
+  color: #c6e0fa;
+}
+
 footer {
   display: flex;
   justify-content: center;

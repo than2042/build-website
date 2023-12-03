@@ -93,12 +93,13 @@ h1 {
 }
 
 .snow {
-  color: #f7fcf3;
-  font-size: 2rem;
-  padding: 1rem;
+  color: rgb(227, 232, 233);
+  font-size: 1.8rem;
+  padding: 0.7rem;
   animation: falling 3s linear forwards infinite;
   animation-delay: 1s;
-  margin: 10px;
+  margin: 0 10px;
+  display: none;
 }
 
 .eclipseAni {

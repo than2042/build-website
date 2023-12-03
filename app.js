@@ -38,7 +38,7 @@ galaxy.addEventListener("click", function () {
   }, 3000);
 });
 
-// change background color on text and button function
+// change background, color on text and button function
 
 function bgChange() {
   const bgBtn = document.getElementById("landscape");

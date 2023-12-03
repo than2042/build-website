@@ -10,7 +10,7 @@ html body {
   padding: 0;
 }
 
-.nav-container {
+.navContainer {
   display: flex;
   gap: 4rem;
   margin: 2rem 3rem;
@@ -24,13 +24,13 @@ html body {
   font-size: 3rem;
 }
 
-.nav-items {
+.navItems {
   display: flex;
   justify-content: center;
   align-self: center;
   gap: 4rem;
 }
-.nav-items a {
+.navItems a {
   color: #f0f8ff;
   font-size: 1rem;
   text-decoration: none;
